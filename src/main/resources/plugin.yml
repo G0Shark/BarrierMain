@@ -1,0 +1,36 @@
+name: BarrierMain
+version: '${project.version}'
+main: server.barriercraft.barriermain.BarrierMain
+api-version: '1.20'
+authors: [_GoodShark_ (_goodshark_), Demiyanit_play (thegreatussr)]
+description: Main plugin of BarrierCraft
+website: https://sites.google.com/view/barriercraft/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F
+commands:
+  die:
+    description: Лёгкий способ убить себя
+    usage: /die
+  ttc:
+    description: Позволяет проверять игроков
+    usage: /ttc Cheater 120
+  admin:
+    description: Консоль для бана
+    usage: /admin
+  invsee:
+    description: Просмотреть инвентарь игрока
+    usage: /invsee XRayshik
+  test:
+    description: /test/
+    usage: /test
+permissions:
+  BarrierCraft.ttc:
+    description: Позволяет использовать команду /ttc
+    default: op
+  BarrierCraft.con:
+    description: Позволяет использовать команду /admin
+    default: op
+  BarrierCraft.invsee:
+    description: Позволяет использовать команду /invsee
+    default: op
+  BarrierCraft.test:
+    description: /test/
+    default: op
